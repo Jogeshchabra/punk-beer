@@ -1,0 +1,88 @@
+.App__header {
+    background-color: #e91d61;
+    text-align: center;
+    margin-top: 1rem;
+    padding: .75rem .25rem;
+}
+
+.App__title {
+    font-size: 1.75rem;
+    color: #fff;
+}
+
+.App__nav {
+    margin-top: .5rem;
+}
+
+.menu-list__item {
+    margin-bottom: .25rem;
+}
+
+.menu-list__link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.menu-list__link.active {
+    color: #ff0;
+}
+
+@media (orientation: landscape) {
+    .App__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .menu-list {
+        display: flex;
+    }
+
+    .menu-list__item {
+        margin: 0 .5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .App__header {
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .App__title {
+        font-size: 2.5rem;
+    }
+
+    .menu-list__item {
+        margin: 0 1rem;
+    }
+
+    .menu-list__link {
+        font-size: 1.5rem;
+    }
+
+    .menu-list__link:hover {
+        color: #ff0;
+    }
+}
+
+@media (min-width: 1600px) {
+    .App__header {
+        padding: 2rem;
+    }
+
+    .App__title {
+        font-size: 3.5rem;
+    }
+
+    .menu-list__item {
+        margin: 0 1.5rem;
+    }
+
+    .menu-list__link {
+        font-size: 2rem;
+    }
+}
